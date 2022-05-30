@@ -27,38 +27,3 @@ abstract class Shape {
         return "Фигура: " + name + ", цвет: " + color;
     }
 }
-
-class Square extends Shape {
-    @Override
-    public void printShape() {
-        System.out.println("Квадрат");
-    }
-}
-
-class Circle extends Shape {
-    @Override
-    public void printShape() {
-        System.out.println("Круг");
-    }
-}
-
-class Triangle extends Shape {
-    @Override
-    public void printShape() {
-        System.out.println("Треугольник");
-    }
-}
-
-class Rectangle extends Shape {
-    @Override
-    public void printShape() {
-        System.out.println("Прямоугольник");
-    }
-}
-
-class Diamond extends Shape {
-    @Override
-    public void printShape() {
-        System.out.println("Ромб");
-    }
-}
