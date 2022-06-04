@@ -19,6 +19,6 @@ public class Main {
         Shape shape5 = new Triangle();
         PrintShape print = new PrintShape();
 
-        print.printShape(shape1.shapeName());
+        print.printShape(shape1);
     }
 }

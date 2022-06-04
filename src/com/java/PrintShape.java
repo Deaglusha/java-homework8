@@ -1,7 +1,7 @@
 package com.java;
 
 public class PrintShape {
-    public void printShape(Object name) {
-        System.out.println(name);
+    public void printShape(Shape shape) {
+        System.out.println(shape.shapeName());
     }
 }
