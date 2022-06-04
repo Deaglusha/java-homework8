@@ -1,8 +1,10 @@
 package com.java;
 
 public class Triangle extends Shape {
+    private static final String NAME = "Треугольник";
+
     @Override
-    public void printShape() {
-        System.out.println("Треугольник");
+    public String shapeName() {
+        return NAME;
     }
 }

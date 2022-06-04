@@ -1,8 +1,10 @@
 package com.java;
 
 public class Rectangle extends Shape {
+    private static final String NAME = "Прямоугольник";
+
     @Override
-    public void printShape() {
-        System.out.println("Прямоугольник");
+    public String shapeName() {
+        return NAME;
     }
 }

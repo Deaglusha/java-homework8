@@ -1,8 +1,10 @@
 package com.java;
 
 public class Square extends Shape {
+    private static final String NAME = "Квадрат";
+
     @Override
-    public void printShape() {
-        System.out.println("Квадрат");
+    public String shapeName() {
+        return NAME;
     }
 }

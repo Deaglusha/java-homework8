@@ -12,19 +12,13 @@ Shape.
 
 public class Main {
     public static void main(String[] args) {
-        Shape shape = new Square();
         Shape shape1 = new Circle();
-        Shape shape2 = new Triangle();
+        Shape shape2 = new Diamond();
+        Shape shape3 = new Rectangle();
+        Shape shape4 = new Square();
+        Shape shape5 = new Triangle();
+        PrintShape print = new PrintShape();
 
-        shape.printShape();
-
-        System.out.println(shape.getColor());
-        shape1.setColor("Зеленый");
-        System.out.println(shape1.getColor());
-        shape1.printShape();
-
-        System.out.println(shape.toString());
-        System.out.println(shape1.toString());
-        System.out.println(shape2.toString());
+        print.printShape(shape1.shapeName());
     }
 }

@@ -1,8 +1,10 @@
 package com.java;
 
 public class Diamond extends Shape {
+    private static final String NAME = "Ромб";
+
     @Override
-    public void printShape() {
-        System.out.println("Ромб");
+    public String shapeName() {
+        return NAME;
     }
 }

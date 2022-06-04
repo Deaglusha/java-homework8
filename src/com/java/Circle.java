@@ -1,8 +1,10 @@
 package com.java;
 
 public class Circle extends Shape {
+    private static final String NAME = "Круг";
+
     @Override
-    public void printShape() {
-        System.out.println("Круг");
+    public String shapeName() {
+        return NAME;
     }
 }
