@@ -1,7 +1,9 @@
 #Other
 .idea
+/.idea
 *.iml
 /out
+*.gitattributes
 
 # Compiled class file
 *.class
