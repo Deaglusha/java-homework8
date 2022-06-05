@@ -1,6 +1,5 @@
 #Other
 .idea
-/.idea
 *.iml
 /out
 *.gitattributes
