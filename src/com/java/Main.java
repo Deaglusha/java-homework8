@@ -12,13 +12,14 @@ Shape.
 
 public class Main {
     public static void main(String[] args) {
+        PrintShape print = new PrintShape();
         Shape shape1 = new Circle();
         Shape shape2 = new Diamond();
         Shape shape3 = new Rectangle();
         Shape shape4 = new Square();
         Shape shape5 = new Triangle();
-        PrintShape print = new PrintShape();
 
         print.printShape(shape1);
+        print.printShape(shape5);
     }
 }
